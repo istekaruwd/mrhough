@@ -1,7 +1,7 @@
 /* Global */
 
 .full-tem {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.7;
     font-family: 'Open Sans', sans-serif;
     color: #494949;
@@ -437,6 +437,9 @@ h5.pro-detail-rev-title {
 	margin-top: 30px;
 	position: relative;
 }
+.single-hot-category img {
+	width: 100%;
+}
 .single-hot-category-con {
 	position: absolute;
 	left: 0;
@@ -461,4 +464,81 @@ h5.pro-detail-rev-title {
 	text-transform: uppercase;
 	width: 60%;
 	text-align: center;
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.promo-list li {
+		margin-right: 15px;
+	}
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.hdr-btm ul li a {
+		padding: 10px;
+	}
+	.promo-list {
+		padding: 10px;
+	}
+	.promo-list li {
+		margin: 5px 10px;
+	}
+	.pro-detail-btns a.btn-one,
+	.pro-detail-btns a.btn-two {
+		width: 100%;
+	}
+	.product-detail img {
+		margin: 0 auto;
+	}
+	.product-thumbnail-wrapper {
+		text-align: center;
+	}
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.promo-list {
+		padding: 10px;
+	}
+	.promo-list li {
+		margin: 5px 10px;
+	}
+	.pro-detail-btns a.btn-one,
+	.pro-detail-btns a.btn-two {
+		width: 100%;
+	}
+	.top-nav {
+		text-align: center;
+	}
+	.top-nav li {
+		margin: 0 2.5px;
+	}
+	.hdr-logo {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.add-fav.text-right {
+		text-align: center !important;
+		margin-top: 15px;
+	}
+	.hdr-btm ul {
+		text-align: center;
+	}
+	.hdr-btm ul li a {
+		padding: 5px 2.5px;
+	}
+	.promo-list {
+		text-align: left;
+	}
+	.product-images-wrapper{
+		display: none;
+	}
+	.product-thumbnail img {
+		width: 100%;
+		height: auto;
+	}
+
 }
